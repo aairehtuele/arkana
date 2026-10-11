@@ -9,7 +9,7 @@
 
   /* layout: ONE column shared by header, content and footer */
   --max: 980px;
-  --measure: 760px;   /* width of intro text and interests */
+  --measure: 100%;    /* intro text and interests span the full column */
   --gutter: 32px;
 
   /* type scale */
