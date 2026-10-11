@@ -1,0 +1,52 @@
+---
+layout: default
+---
+<section class="hero">
+  <p class="eyebrow">Researcher / Writer / Maker</p>
+  <h1 class="display">{{ site.title }}</h1>
+  <p class="lede">{{ site.tagline }}</p>
+  <p class="intro">
+    I study how living cells can be engineered to sense and respond to their environment.
+    Outside the lab I write about science, make things, and collect ideas that sit somewhere
+    between biology and design. <em>(Replace this with a few sentences about you.)</em>
+  </p>
+</section>
+
+<section class="index">
+  <div class="index-head"><h2>Recent writing</h2><a href="{{ '/blog/' | relative_url }}">All →</a></div>
+  <ol class="list">
+    {% for post in site.posts limit:3 %}
+    <li>
+      <a href="{{ post.url | relative_url }}">
+        <span class="num">{{ post.date | date: "%m.%y" }}</span>
+        <span class="name">{{ post.title }}</span>
+        <span class="meta">{{ post.tags | first }}</span>
+      </a>
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+
+<section class="index">
+  <div class="index-head"><h2>Selected research</h2><a href="{{ '/research/' | relative_url }}">All →</a></div>
+  <ol class="list">
+    {% for p in site.data.publications limit:3 %}
+    <li>
+      <a href="{{ p.link | default: '#' }}">
+        <span class="num">{{ p.year }}</span>
+        <span class="name">{{ p.title }}</span>
+        <span class="meta">{{ p.venue }}</span>
+      </a>
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+
+<section class="index">
+  <div class="index-head"><h2>Creative</h2><a href="{{ '/creative/' | relative_url }}">All →</a></div>
+  <div class="grid small">
+    {% for w in site.data.creative limit:3 %}
+    {% include tile.html w=w %}
+    {% endfor %}
+  </div>
+</section>

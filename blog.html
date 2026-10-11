@@ -1,0 +1,28 @@
+---
+layout: default
+title: Writing
+permalink: /blog/
+---
+<section class="page-head">
+  <p class="eyebrow">02 — Writing</p>
+  <h1 class="title">Writing</h1>
+  <p class="lede">Notes, essays and half-formed ideas from the bench and beyond.</p>
+</section>
+
+{% assign years = site.posts | group_by_exp: "p", "p.date | date: '%Y'" %}
+{% for y in years %}
+<section class="index">
+  <div class="index-head"><h2>{{ y.name }}</h2></div>
+  <ol class="list">
+    {% for post in y.items %}
+    <li>
+      <a href="{{ post.url | relative_url }}">
+        <span class="num">{{ post.date | date: "%d.%m" }}</span>
+        <span class="name">{{ post.title }}{% if post.summary %}<small>{{ post.summary }}</small>{% endif %}</span>
+        <span class="meta">{{ post.tags | join: " / " }}</span>
+      </a>
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+{% endfor %}

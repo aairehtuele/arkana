@@ -1,0 +1,16 @@
+---
+layout: default
+title: Creative
+permalink: /creative/
+---
+<section class="page-head">
+  <p class="eyebrow">03 — Creative</p>
+  <h1 class="title">Creative work</h1>
+  <p class="lede">Drawings, photographs, side projects and experiments that don't fit in a paper.</p>
+</section>
+
+<div class="grid">
+  {% for w in site.data.creative %}
+  {% include tile.html w=w %}
+  {% endfor %}
+</div>

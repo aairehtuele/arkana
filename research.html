@@ -1,0 +1,38 @@
+---
+layout: default
+title: Research
+permalink: /research/
+---
+<section class="page-head">
+  <p class="eyebrow">01 — Research</p>
+  <h1 class="title">Research</h1>
+  <p class="lede">
+    A short paragraph on your research questions: what you're trying to understand,
+    the systems you work with, and why it matters.
+  </p>
+</section>
+
+<section class="index">
+  <div class="index-head"><h2>Interests</h2></div>
+  <ul class="tags">
+    <li>Synthetic biology</li>
+    <li>Engineered biosensors</li>
+    <li>Bioelectronics</li>
+    <li>Genetic circuit design</li>
+  </ul>
+</section>
+
+<section class="index">
+  <div class="index-head"><h2>Publications & talks</h2></div>
+  <ol class="list pubs">
+    {% for p in site.data.publications %}
+    <li>
+      <a href="{{ p.link | default: '#' }}">
+        <span class="num">{{ p.year }}</span>
+        <span class="name">{{ p.title }}<small>{{ p.authors }}</small></span>
+        <span class="meta">{{ p.venue }}</span>
+      </a>
+    </li>
+    {% endfor %}
+  </ol>
+</section>

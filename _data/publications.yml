@@ -1,0 +1,18 @@
+# One entry per paper, poster or talk. Newest first.
+- title: "Title of your paper or preprint"
+  authors: "You, Co-author A, Co-author B"
+  venue: "Journal / bioRxiv"
+  year: 2026
+  link: "https://doi.org/..."
+
+- title: "Poster: a short descriptive title"
+  authors: "You, Supervisor"
+  venue: "Conference name"
+  year: 2026
+  link: ""
+
+- title: "Journal club: discussing a paper you presented"
+  authors: "You"
+  venue: "Graduate course"
+  year: 2026
+  link: ""

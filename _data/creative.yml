@@ -1,0 +1,25 @@
+# One entry per piece. Put images in assets/img/ and reference them below.
+# Leave image empty to show a typographic placeholder.
+- title: "Cell studies"
+  medium: "Ink on paper"
+  year: 2026
+  image: ""        # e.g. /assets/img/cell-studies.jpg
+  link: ""
+
+- title: "Agar landscapes"
+  medium: "Photography"
+  year: 2026
+  image: ""
+  link: ""
+
+- title: "Zine: Notes from the bench"
+  medium: "Risograph"
+  year: 2025
+  image: ""
+  link: ""
+
+- title: "Sensor sketches"
+  medium: "Digital"
+  year: 2025
+  image: ""
+  link: ""

@@ -1,0 +1,31 @@
+# ─── Your details (edit these) ───────────────────────────────
+title: "Your Name"
+tagline: "Researcher in synthetic biology · writer · maker of small things"
+description: "Personal website of Your Name — research, writing and creative work."
+email: "you@example.com"
+location: "Seoul, KR"
+
+# Social links — leave blank ("") to hide
+links:
+  github: "aairehtuele"
+  scholar: ""        # full Google Scholar URL
+  orcid: ""          # e.g. 0000-0000-0000-0000
+  linkedin: ""       # full URL
+  instagram: ""      # username
+
+# ─── Site settings ───────────────────────────────────────────
+# If your repo is named <username>.github.io leave baseurl empty.
+# If it's any other name (e.g. "website"), set baseurl: "/website"
+url: "https://aairehtuele.github.io"
+baseurl: "/arkana"
+
+permalink: /blog/:year/:title/
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

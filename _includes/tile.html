@@ -1,0 +1,16 @@
+{% assign w = include.w %}
+<figure class="tile">
+  <a href="{{ w.link | default: '#' }}">
+    <div class="img">
+      {% if w.image %}
+        <img src="{{ w.image | relative_url }}" alt="{{ w.title }}" loading="lazy">
+      {% else %}
+        <span class="placeholder">{{ w.title | slice: 0 }}</span>
+      {% endif %}
+    </div>
+    <figcaption>
+      <span class="name">{{ w.title }}</span>
+      <span class="meta">{{ w.medium }} · {{ w.year }}</span>
+    </figcaption>
+  </a>
+</figure>
