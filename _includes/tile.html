@@ -1,7 +1,7 @@
 {% assign w = include.w %}
 <figure class="tile">
-  <a href="{{ w.link | default: '#' }}">
-    <div class="img">
+  <a href="{% if w.link and w.link != '' %}{{ w.link }}{% else %}{{ w.image | relative_url }}{% endif %}">
+    <div class="img{% if w.image %} has-img{% endif %}">
       {% if w.image %}
         <img src="{{ w.image | relative_url }}" alt="{{ w.title }}" loading="lazy">
       {% else %}
@@ -10,7 +10,7 @@
     </div>
     <figcaption>
       <span class="name">{{ w.title }}</span>
-      <span class="meta">{{ w.medium }} · {{ w.year }}</span>
+      <span class="meta">{{ w.medium }}{% if w.year and w.year != "" %} · {{ w.year }}{% endif %}</span>
     </figcaption>
   </a>
 </figure>
