@@ -23,7 +23,8 @@ A Jekyll site for GitHub Pages: research, writing, creative work and CV.
 | Research intro + interest tags | `research.html` |
 | Publications, posters, talks | `_data/publications.yml` |
 | Creative pieces (gallery) | `_data/creative.yml` + images in `assets/img/` |
-| CV text | `cv.md` (and drop your PDF at `assets/files/cv.pdf`) |
+| About text + CV | `about.md` (and drop your PDF at `assets/files/cv.pdf`) |
+| Projects | `_data/projects.yml` |
 | Colours, spacing, frame width | top of `assets/css/style.css` |
 
 You can edit any of these directly on github.com (click the file → pencil icon); the site rebuilds itself.

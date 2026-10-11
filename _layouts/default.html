@@ -13,16 +13,16 @@
   {% feed_meta %}
 </head>
 <body>
-  <a class="skip" href="#main">Skip to content</a>
   <div class="frame">
     <header class="top">
       <a class="mark" href="{{ '/' | relative_url }}">{{ site.title }}</a>
       <nav aria-label="Main">
         {% assign here = page.url %}
-        <a href="{{ '/research/' | relative_url }}" {% if here contains '/research' %}class="on"{% endif %}><span>01</span>Research</a>
-        <a href="{{ '/blog/' | relative_url }}" {% if here contains '/blog' %}class="on"{% endif %}><span>02</span>Writing</a>
-        <a href="{{ '/creative/' | relative_url }}" {% if here contains '/creative' %}class="on"{% endif %}><span>03</span>Creative</a>
-        <a href="{{ '/cv/' | relative_url }}" {% if here contains '/cv' %}class="on"{% endif %}><span>04</span>CV</a>
+        <a href="{{ '/about/' | relative_url }}" {% if here contains '/about' %}class="on"{% endif %}><span>01</span>About</a>
+        <a href="{{ '/research/' | relative_url }}" {% if here contains '/research' %}class="on"{% endif %}><span>02</span>Research</a>
+        <a href="{{ '/projects/' | relative_url }}" {% if here contains '/projects' %}class="on"{% endif %}><span>03</span>Projects</a>
+        <a href="{{ '/blog/' | relative_url }}" {% if here contains '/blog' %}class="on"{% endif %}><span>04</span>Blog</a>
+        <a href="{{ '/creative/' | relative_url }}" {% if here contains '/creative' %}class="on"{% endif %}><span>05</span>Creative</a>
       </nav>
     </header>
 

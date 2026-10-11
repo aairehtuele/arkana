@@ -10,10 +10,29 @@ layout: default
     Outside the lab I write about science, make things, and collect ideas that sit somewhere
     between biology and design. <em>(Replace this with a few sentences about you.)</em>
   </p>
+  <p class="actions">
+    <a class="button" href="{{ '/about/' | relative_url }}">About me</a>
+    {% assign cvfile = site.static_files | where: "path", "/assets/files/cv.pdf" | first %}{% if cvfile %}<a class="button" href="{{ '/assets/files/cv.pdf' | relative_url }}">Download CV</a>{% endif %}
+  </p>
 </section>
 
 <section class="index">
-  <div class="index-head"><h2>Recent writing</h2><a href="{{ '/blog/' | relative_url }}">All →</a></div>
+  <div class="index-head"><h2>Projects</h2><a href="{{ '/projects/' | relative_url }}">All →</a></div>
+  <ol class="list">
+    {% for p in site.data.projects limit:3 %}
+    <li>
+      <a href="{{ p.link | default: '#' }}">
+        <span class="num">{{ p.year }}</span>
+        <span class="name">{{ p.title }}<small>{{ p.description }}</small></span>
+        <span class="meta">{{ p.status }}</span>
+      </a>
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+
+<section class="index">
+  <div class="index-head"><h2>Blog</h2><a href="{{ '/blog/' | relative_url }}">All →</a></div>
   <ol class="list">
     {% for post in site.posts limit:3 %}
     <li>

@@ -1,0 +1,22 @@
+# One entry per project. Newest first.
+# status: ongoing / finished / idea
+- title: "Project one"
+  description: "One or two sentences on what it is and why you started it."
+  year: 2026
+  status: ongoing
+  tags: "Biosensors · Design"
+  link: ""
+
+- title: "Project two"
+  description: "A side project, tool, collaboration or experiment."
+  year: 2025
+  status: finished
+  tags: "Writing · Outreach"
+  link: ""
+
+- title: "Project three"
+  description: "Something half-formed that you'd like to build."
+  year: 2025
+  status: idea
+  tags: "Bioelectronics"
+  link: ""
