@@ -2,7 +2,7 @@
 :root {
   --ink: #0a0a0a;
   --paper: #ffffff;
-  --mute: #8a8a8a;
+  --mute: #6b6b6b;
   --line: #0a0a0a;
   --hair: #e6e6e6;
   --frame: 14px;
@@ -154,8 +154,9 @@ main {
 }
 .list a:hover { padding-left: 12px; }
 .list .num { font-size: 12px; color: var(--mute); font-variant-numeric: tabular-nums; letter-spacing: .06em; }
-.list .name { font-size: 18px; font-weight: 300; }
-.list .name small { display: block; font-size: 13px; color: var(--mute); margin-top: 4px; }
+.list .name { font-size: 17px; font-weight: 400; line-height: 1.4; max-width: 62ch; }
+.list .name small { display: block; font-size: 13px; font-weight: 300; line-height: 1.5; color: var(--mute); margin-top: 6px; }
+.list .name small + small { margin-top: 2px; }
 .list .meta { font-size: 11px; letter-spacing: .18em; text-transform: uppercase; color: var(--mute); text-align: right; }
 
 .tags { list-style: none; display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
@@ -183,7 +184,7 @@ main {
 }
 .tile:hover .placeholder { transform: rotate(-8deg) scale(1.08); }
 .tile figcaption { display: flex; justify-content: space-between; gap: 12px; padding-top: 12px; }
-.tile .name { font-size: 15px; }
+.tile .name { font-size: 15px; font-weight: 400; line-height: 1.4; }
 .tile .meta { font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--mute); white-space: nowrap; }
 
 /* ── Prose (posts, CV) ──────────────────────────────────── */
@@ -237,6 +238,7 @@ main {
   .list a { grid-template-columns: 48px 1fr; gap: 12px; }
   .list a:hover { padding-left: 0; }
   .list .name { font-size: 16px; }
+  .list .name small { font-size: 12.5px; }
   .list .meta { display: none; }
   .grid, .grid.small { grid-template-columns: repeat(2, 1fr); gap: 16px; }
   .tile figcaption { flex-direction: column; gap: 2px; }

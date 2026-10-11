@@ -26,8 +26,7 @@ permalink: /research/
     <li>
       <a href="{{ p.link | default: '#' }}">
         <span class="num">{{ p.year }}</span>
-        <span class="name">{{ p.title }}<small>{{ p.authors }}</small></span>
-        <span class="meta">{{ p.venue }}</span>
+        <span class="name">{{ p.title }}<small>{{ p.authors }}</small><small>{{ p.venue }}</small></span>
       </a>
     </li>
     {% endfor %}
