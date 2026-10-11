@@ -41,8 +41,7 @@ img { max-width: 100%; display: block; }
   justify-content: space-between;
   align-items: center;
   gap: 24px;
-  padding: 22px 32px;
-  border-bottom: 1px solid var(--line);
+  padding: 26px 32px 0;
 }
 .mark {
   font-weight: 500;
@@ -78,8 +77,7 @@ main {
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 12px;
-  padding: 18px 32px;
-  border-top: 1px solid var(--line);
+  padding: 0 32px 24px;
   font-size: 11px;
   letter-spacing: .14em;
   text-transform: uppercase;
@@ -132,7 +130,7 @@ main {
 .intro { max-width: 60ch; margin-top: 28px; color: #333; }
 .intro em { color: var(--mute); }
 
-.hero { padding-bottom: 72px; border-bottom: 1px solid var(--hair); }
+.hero { padding-bottom: 24px; }
 .page-head { padding-bottom: 48px; }
 .page-head .button { margin-top: 24px; }
 
@@ -140,8 +138,7 @@ main {
 .index { margin-top: 64px; }
 .index-head {
   display: flex; justify-content: space-between; align-items: baseline;
-  border-bottom: 1px solid var(--line);
-  padding-bottom: 10px;
+  padding-bottom: 6px;
 }
 .index-head h2, .prose h2 {
   font-size: 11px; font-weight: 500;
@@ -151,13 +148,13 @@ main {
 .index-head a:hover { color: var(--ink); }
 
 .list { list-style: none; }
-.list li { border-bottom: 1px solid var(--hair); }
+.list li { }
 .list a {
   display: grid;
   grid-template-columns: 72px 1fr auto;
   gap: 20px;
   align-items: baseline;
-  padding: 18px 0;
+  padding: 14px 0;
   transition: padding .3s ease, background .3s ease;
 }
 .list a:hover { padding-left: 12px; }
@@ -179,10 +176,9 @@ main {
 .grid.small { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
 .tile .img {
   aspect-ratio: 4 / 5;
-  border: 1px solid var(--ink);
   overflow: hidden;
   display: grid; place-items: center;
-  background: var(--paper);
+  background: #f4f4f4;
 }
 .tile img { width: 100%; height: 100%; object-fit: cover; filter: grayscale(1); transition: filter .5s ease, transform .6s ease; }
 .tile:hover img { filter: grayscale(0); transform: scale(1.03); }
@@ -199,7 +195,7 @@ main {
 .post .lede { margin-bottom: 48px; color: #333; }
 .prose { max-width: 66ch; }
 .prose > * + * { margin-top: 1.1em; }
-.prose h2 { margin-top: 2.6em; padding-bottom: 10px; border-bottom: 1px solid var(--line); }
+.prose h2 { margin-top: 2.6em; }
 .prose h3 { font-weight: 400; font-size: 20px; margin-top: 2em; }
 .prose strong { font-weight: 500; }
 .prose ul, .prose ol { padding-left: 1.2em; }
@@ -207,7 +203,7 @@ main {
 .prose code { font-size: .88em; background: #f3f3f3; padding: 2px 5px; }
 .prose pre { background: #f3f3f3; padding: 16px; overflow-x: auto; }
 .prose pre code { background: none; padding: 0; }
-.prose img { border: 1px solid var(--ink); margin: 2em 0; }
+.prose img { margin: 2em 0; }
 .cv p { margin-top: .9em; }
 .back { margin-top: 72px; font-size: 12px; letter-spacing: .18em; text-transform: uppercase; }
 
@@ -220,14 +216,39 @@ main {
 }
 .button:hover { background: var(--ink); color: var(--paper); }
 
+/* ── Tablet ─────────────────────────────────────────────── */
+@media (max-width: 900px) {
+  .top { padding: 22px 24px 0; }
+  main { padding: 56px 24px 80px; }
+  .bottom { padding: 0 24px 22px; }
+  .coords { display: none; }
+}
+
+/* ── Large screens ──────────────────────────────────────── */
+@media (min-width: 1500px) {
+  :root { --max: 1100px; }
+  body { font-size: 17px; }
+}
+
 /* ── Small screens ──────────────────────────────────────── */
 @media (max-width: 680px) {
   :root { --frame: 8px; }
-  .top { flex-direction: column; align-items: flex-start; padding: 18px 16px; }
-  .top nav { gap: 18px; }
-  main { padding: 48px 16px 64px; }
-  .bottom { padding: 16px; }
-  .list a { grid-template-columns: 52px 1fr; }
+  body { font-size: 15px; }
+  .top { flex-direction: column; align-items: flex-start; gap: 14px; padding: 20px 18px 0; }
+  .top nav { gap: 6px 20px; }
+  main { padding: 40px 18px 56px; }
+  .hero { padding-bottom: 8px; }
+  .index { margin-top: 48px; }
+  .bottom { padding: 0 18px 20px; flex-direction: column; }
+  .list a { grid-template-columns: 48px 1fr; gap: 12px; }
+  .list a:hover { padding-left: 0; }
+  .list .name { font-size: 16px; }
   .list .meta { display: none; }
-  .coords { display: none; }
+  .grid, .grid.small { grid-template-columns: repeat(2, 1fr); gap: 16px; }
+  .tile figcaption { flex-direction: column; gap: 2px; }
+  .tile .placeholder { font-size: 72px; }
+  .prose blockquote { font-size: 18px; }
+}
+@media (max-width: 380px) {
+  .grid, .grid.small { grid-template-columns: 1fr; }
 }
