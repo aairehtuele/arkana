@@ -15,10 +15,7 @@ permalink: /research/
 <section class="index">
   <div class="index-head"><h2>Interests</h2></div>
   <ul class="tags">
-    <li>Synthetic biology</li>
-    <li>Engineered biosensors</li>
-    <li>Bioelectronics</li>
-    <li>Genetic circuit design</li>
+    {% for i in site.data.interests %}<li>{{ i }}</li>{% endfor %}
   </ul>
 </section>
 

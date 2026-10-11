@@ -10,6 +10,9 @@ layout: default
     Outside the lab I write about science, make things, and collect ideas that sit somewhere
     between biology and design. <em>(Replace this with a few sentences about you.)</em>
   </p>
+  <ul class="tags">
+    {% for i in site.data.interests %}<li>{{ i }}</li>{% endfor %}
+  </ul>
   <p class="actions">
     <a class="button" href="{{ '/about/' | relative_url }}">About me</a>
     {% assign cvfile = site.static_files | where: "path", "/assets/files/cv.pdf" | first %}{% if cvfile %}<a class="button" href="{{ '/assets/files/cv.pdf' | relative_url }}">Download CV</a>{% endif %}
