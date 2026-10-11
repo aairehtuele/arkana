@@ -12,7 +12,7 @@ layout: default
     {% for i in site.data.interests %}<li>{{ i }}</li>{% endfor %}
   </ul>
   <p class="actions">
-    <a class="button" href="{{ '/about/' | relative_url }}">About me</a>
+    <a class="button" href="{{ '/about/' | relative_url }}">About</a>
     {% assign cvfile = site.static_files | where: "path", "/assets/files/cv.pdf" | first %}{% if cvfile %}<a class="button" href="{{ '/assets/files/cv.pdf' | relative_url }}">Download CV</a>{% endif %}
   </p>
 </section>
