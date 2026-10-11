@@ -7,7 +7,7 @@ permalink: /about/
   <p class="eyebrow">01 — About</p>
   <h1 class="title">About</h1>
   <p class="lede">A few sentences about who you are, what you work on and what you care about. <em>(Replace this.)</em></p>
-  <p class="intro">Reach me at <a href="mailto:{{ site.email }}">{{ site.email }}</a> · {{ site.location }}</p>
+  <p class="sub">Reach me at <a href="mailto:{{ site.email }}">{{ site.email }}</a> · {{ site.location }}</p>
   {% assign cvfile = site.static_files | where: "path", "/assets/files/cv.pdf" | first %}{% if cvfile %}<p><a class="button" href="{{ '/assets/files/cv.pdf' | relative_url }}">Download full CV (PDF)</a></p>{% endif %}
 </section>
 

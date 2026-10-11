@@ -3,7 +3,7 @@
   <a href="{% if w.link and w.link != '' %}{{ w.link }}{% else %}{{ w.image | relative_url }}{% endif %}">
     <div class="img{% if w.image %} has-img{% endif %}">
       {% if w.image %}
-        <img src="{{ w.image | relative_url }}" alt="{{ w.title }}" loading="lazy">
+        <img src="{{ w.image | relative_url }}" alt="{{ w.alt | default: w.title }}" loading="lazy">
       {% else %}
         <span class="placeholder">Image to come</span>
       {% endif %}

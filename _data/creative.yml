@@ -1,6 +1,7 @@
 # One entry per piece. Put images in assets/img/ and reference them below.
 # Newest first. year and link are optional.
-- title: "Opentron Art — Designer Cells Node Lab #2"
+- title: "Fluorescent art"
+  alt: "Opentron Art, Designer Cells Node Lab #2: fluorescent E. coli, a bacterial drawing on an agar plate, and the campus cat"
   medium: "Bacterial art · Lab automation"
   year: ""
   image: /assets/img/opentron-art.jpg
