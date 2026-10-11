@@ -117,6 +117,7 @@ main { flex: 1; padding-top: 72px; padding-bottom: 96px; }
   max-width: var(--measure); color: #222;
   text-align: justify; hyphens: auto; -webkit-hyphens: auto;
 }
+.lede + .lede { margin-top: var(--s2); }
 .lede em, .sub em { color: var(--mute); }
 .sub { font-size: var(--fs-small); color: var(--mute); margin-top: var(--s2); }
 .lede a, .sub a, .prose a { border-bottom: 1px solid currentColor; }
