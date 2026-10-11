@@ -6,15 +6,18 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="{{ '/assets/img/favicon.svg' | relative_url }}">
+  <meta name="theme-color" content="#ffffff">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   {% seo %}
   {% feed_meta %}
 </head>
 <body>
+  <a class="skip" href="#main">Skip to content</a>
   <div class="frame">
     <header class="top">
       <a class="mark" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-      <nav>
+      <nav aria-label="Main">
         {% assign here = page.url %}
         <a href="{{ '/research/' | relative_url }}" {% if here contains '/research' %}class="on"{% endif %}><span>01</span>Research</a>
         <a href="{{ '/blog/' | relative_url }}" {% if here contains '/blog' %}class="on"{% endif %}><span>02</span>Writing</a>
@@ -23,7 +26,7 @@
       </nav>
     </header>
 
-    <main>
+    <main id="main">
       {{ content }}
     </main>
 
@@ -31,11 +34,11 @@
       <span>© {{ 'now' | date: '%Y' }} {{ site.title }}</span>
       <span class="links">
         {% if site.email %}<a href="mailto:{{ site.email }}">Email</a>{% endif %}
-        {% if site.links.github != "" %}<a href="https://github.com/{{ site.links.github }}">GitHub</a>{% endif %}
+        {% if site.links.github != "" %}<a href="https://github.com/{{ site.links.github }}" rel="me noopener">GitHub</a>{% endif %}
         {% if site.links.scholar != "" %}<a href="{{ site.links.scholar }}">Scholar</a>{% endif %}
-        {% if site.links.orcid != "" %}<a href="https://orcid.org/{{ site.links.orcid }}">ORCID</a>{% endif %}
+        {% if site.links.orcid != "" %}<a href="https://orcid.org/{{ site.links.orcid }}" rel="me noopener">ORCID</a>{% endif %}
         {% if site.links.linkedin != "" %}<a href="{{ site.links.linkedin }}">LinkedIn</a>{% endif %}
-        {% if site.links.instagram != "" %}<a href="https://instagram.com/{{ site.links.instagram }}">Instagram</a>{% endif %}
+        {% if site.links.instagram != "" %}<a href="https://instagram.com/{{ site.links.instagram }}" rel="me noopener">Instagram</a>{% endif %}
       </span>
     </footer>
   </div>
