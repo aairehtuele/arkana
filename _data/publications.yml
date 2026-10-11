@@ -1,18 +1,8 @@
 # One entry per paper, poster or talk. Newest first.
-- title: "Title of your paper or preprint"
-  authors: "You, Co-author A, Co-author B"
-  venue: "Journal / bioRxiv"
+# To add another, copy a block below and change the text.
+# (title / authors / venue / year / link — link is optional)
+- title: "Toward Supporting Students’ Metacognitive Questioning in GenAI-Assisted Learning"
+  authors: "Yeonsun Yang, Anastasia Arkhipenkova, Jean Y Song"
+  venue: "CHI 2026 Workshop on Understanding and Engaging Critical Resistance to AI in Education"
   year: 2026
-  link: "https://doi.org/..."
-
-- title: "Poster: a short descriptive title"
-  authors: "You, Supervisor"
-  venue: "Conference name"
-  year: 2026
-  link: ""
-
-- title: "Journal club: discussing a paper you presented"
-  authors: "You"
-  venue: "Graduate course"
-  year: 2026
-  link: ""
+  link: "https://yeonsunyang.com/assets/pdf/CHI26_workshop_metacognitive_questioning.pdf"
