@@ -125,7 +125,7 @@ main {
 .intro { max-width: 60ch; margin-top: 28px; color: #333; }
 .intro em { color: var(--mute); }
 
-.hero { padding-bottom: 24px; }
+.hero { padding-top: 24px; padding-bottom: 24px; }
 .page-head { padding-bottom: 48px; }
 .page-head .button { margin-top: 24px; }
 
@@ -159,8 +159,8 @@ main {
 .list .name small + small { margin-top: 2px; }
 .list .meta { font-size: 11px; letter-spacing: .18em; text-transform: uppercase; color: var(--mute); text-align: right; }
 
-.tags { list-style: none; display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
-.tags li { border: 1px solid var(--ink); padding: 6px 14px; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; }
+.tags { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; }
+.tags li { border: 1px solid var(--ink); padding: 4px 11px; font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase; line-height: 1.5; }
 
 /* ── Gallery ────────────────────────────────────────────── */
 .grid {
