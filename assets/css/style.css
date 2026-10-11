@@ -122,6 +122,8 @@ main { flex: 1; padding-top: 72px; padding-bottom: 96px; }
 .lede a, .sub a, .prose a { border-bottom: 1px solid currentColor; }
 
 .hero, .page-head { padding-bottom: var(--s2); }
+/* homepage greeting: same size as the intro, set apart by weight */
+.hero .title { font-size: var(--fs-lede); font-weight: 500; letter-spacing: 0; line-height: 1.6; margin-bottom: var(--s1); }
 
 /* ── Sections & lists ───────────────────────────────────── */
 .index { margin-top: var(--s5); }
