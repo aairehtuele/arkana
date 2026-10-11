@@ -63,11 +63,14 @@ layout: default
   </ol>
 </section>
 
+{% assign shown = site.data.creative | where_exp: "w", "w.image and w.image != ''" %}
+{% if shown.size > 0 %}
 <section class="index">
   <div class="index-head"><h2>Creative</h2><a href="{{ '/creative/' | relative_url }}">All →</a></div>
   <div class="grid small">
-    {% for w in site.data.creative limit:3 %}
+    {% for w in shown limit:3 %}
     {% include tile.html w=w %}
     {% endfor %}
   </div>
 </section>
+{% endif %}
