@@ -62,12 +62,12 @@ layout: default
 </section>
 
 {% assign has_images = false %}
-{% for w in site.data.creative %}{% if w.image and w.image != "" %}{% assign has_images = true %}{% endif %}{% endfor %}
+{% for w in site.data.gallery %}{% if w.image and w.image != "" %}{% assign has_images = true %}{% endif %}{% endfor %}
 {% if has_images %}
 <section class="index">
-  <div class="index-head"><h2>Creative</h2><a href="{{ '/creative/' | relative_url }}">All →</a></div>
+  <div class="index-head"><h2>Gallery</h2><a href="{{ '/gallery/' | relative_url }}">All →</a></div>
   <div class="grid small">
-    {% for w in site.data.creative limit:3 %}
+    {% for w in site.data.gallery limit:3 %}
     {% if w.image and w.image != "" %}{% include tile.html w=w %}{% endif %}
     {% endfor %}
   </div>

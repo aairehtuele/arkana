@@ -4,7 +4,6 @@ title: About
 permalink: /about/
 ---
 <section class="page-head">
-  <p class="eyebrow">01 — About</p>
   <h1 class="title">About</h1>
   <p class="lede">A few sentences about who you are, what you work on and what you care about. <em>(Replace this.)</em></p>
   <p class="sub">Reach me at <a href="mailto:{{ site.email }}">{{ site.email }}</a> · {{ site.location }}</p>

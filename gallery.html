@@ -1,16 +1,15 @@
 ---
 layout: default
-title: Creative
-permalink: /creative/
+title: Gallery
+permalink: /gallery/
 ---
 <section class="page-head">
-  <p class="eyebrow">05 — Creative</p>
-  <h1 class="title">Creative work</h1>
+  <h1 class="title">Gallery</h1>
   <p class="lede">Drawings, photographs, side projects and experiments that don't fit in a paper.</p>
 </section>
 
 <div class="grid">
-  {% for w in site.data.creative %}
+  {% for w in site.data.gallery %}
   {% include tile.html w=w %}
   {% endfor %}
 </div>

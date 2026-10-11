@@ -74,7 +74,6 @@ main { flex: 1; padding-top: 72px; padding-bottom: 96px; }
   position: relative;
   padding-bottom: 2px;
 }
-.top nav a span { font-size: 9px; color: var(--mute); margin-right: 6px; vertical-align: top; }
 .top nav a::after {
   content: ""; position: absolute; left: 0; bottom: 0;
   width: 0; height: 1px; background: var(--ink); transition: width .3s ease;
@@ -114,7 +113,7 @@ main { flex: 1; padding-top: 72px; padding-bottom: 96px; }
 }
 .lede {                                  /* intro paragraph under any title */
   font-size: var(--fs-lede); font-weight: 300; line-height: 1.6;
-  max-width: 52ch; color: #222;
+  max-width: 75ch; color: #222;
 }
 .lede em, .sub em { color: var(--mute); }
 .sub { font-size: var(--fs-small); color: var(--mute); margin-top: var(--s2); }
@@ -146,7 +145,7 @@ main { flex: 1; padding-top: 72px; padding-bottom: 96px; }
   padding: 14px 0;
 }
 .list .num { font-size: var(--fs-label); letter-spacing: .08em; color: var(--mute); font-variant-numeric: tabular-nums; }
-.list .name { font-size: var(--fs-item); font-weight: 400; line-height: 1.4; max-width: 62ch; }
+.list .name { font-size: var(--fs-item); font-weight: 400; line-height: 1.4; max-width: 80ch; }
 .list .name small {
   display: block; margin-top: 6px;
   font-size: var(--fs-small); font-weight: 300; line-height: 1.5; color: var(--mute);
