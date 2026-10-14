@@ -1,22 +1,22 @@
 # One entry per project. Newest first.
 # status: ongoing / finished / idea
-- title: "Project one"
-  description: "One or two sentences on what it is and why you started it."
+- title: "Toehold–nanopore biosensing platform"
+  description: "A multiplexed RNA biosensor that couples toehold switch recognition with a nanopore readout, aimed at accessible detection of disease biomarkers. Continues my senior thesis on cell-free preeclampsia screening."
   year: 2026
   status: ongoing
-  tags: "Biosensors · Design"
+  tags: "Biosensors · Synthetic biology"
   link: ""
 
-- title: "Project two"
-  description: "A side project, tool, collaboration or experiment."
+- title: "AI lab assistant"
+  description: "An agentic assistant for the wet lab that tracks protocols, coordinates workflows and helps with lab management, so scientists spend less time on logistics and more at the bench."
+  year: 2025
+  status: ongoing
+  tags: "Human–AI interaction · Lab automation"
+  link: ""
+
+- title: "Opentrons lab automation workshops"
+  description: "Workshops introducing engineering students to molecular biology and lab automation on the Opentrons OT-2, taught for Yonsei's Integrated Science and Engineering courses."
   year: 2025
   status: finished
-  tags: "Writing · Outreach"
-  link: ""
-
-- title: "Project three"
-  description: "Something half-formed that you'd like to build."
-  year: 2025
-  status: idea
-  tags: "Bioelectronics"
+  tags: "Teaching · Lab automation"
   link: ""

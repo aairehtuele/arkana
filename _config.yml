@@ -1,8 +1,8 @@
 # ─── Your details (edit these) ───────────────────────────────
 title: "Ana"
-tagline: "Multidisciplinary researcher and designer in bioengineering and lab automation"
-description: "Personal website of Ana, a multidisciplinary researcher and designer working in bioengineering and lab automation — research, writing and creative work."
-email: "you@example.com"
+tagline: "Researcher and designer in synthetic biology, biosensors and lab automation"
+description: "Personal website of Ana, a researcher and designer working in synthetic biology, immunoengineering and lab automation — research, writing and creative work."
+email: "anastasia.rkh@yonsei.ac.kr"
 location: "Seoul, KR"
 
 # Social links — leave blank ("") to hide
@@ -10,7 +10,7 @@ links:
   github: "aairehtuele"
   scholar: ""        # full Google Scholar URL
   orcid: ""          # e.g. 0000-0000-0000-0000
-  linkedin: ""       # full URL
+  linkedin: "https://www.linkedin.com/in/anastasia-arkhipenkova"       # full URL
   instagram: ""      # username
 
 # ─── Site settings ───────────────────────────────────────────

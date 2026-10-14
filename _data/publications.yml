@@ -2,7 +2,13 @@
 # To add another, copy a block below and change the text.
 # (title / authors / venue / year / link — link is optional)
 - title: "Toward Supporting Students’ Metacognitive Questioning in GenAI-Assisted Learning"
-  authors: "Yeonsun Yang, Anastasia Arkhipenkova, Jean Y Song"
+  authors: "Yeonsun Yang, Anastasia Arkhipenkova, Jean Y. Song"
   venue: "CHI 2026 Workshop on Understanding and Engaging Critical Resistance to AI in Education"
   year: 2026
   link: "https://yeonsunyang.com/assets/pdf/CHI26_workshop_metacognitive_questioning.pdf"
+
+- title: "Engineering Dendritic Cells for Cell Therapy: Production, Polarization, and Precision Delivery"
+  authors: "S. Francis, A. Arkhipenkova, J. Jeong, K. Chung, H. Kwon, N. Ibrayeva, P. Han"
+  venue: "In preparation for Immune Network"
+  year: 2026
+  link: ""
