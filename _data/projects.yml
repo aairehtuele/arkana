@@ -14,6 +14,13 @@
   tags: "Human–AI interaction · Lab automation"
   link: ""
 
+- title: "ChemDX Agentic AI"
+  description: "A multi-agent framework that plans, queries materials databases, plots trends and writes DFT input files. Built with three teammates at the KRICT ChemDX Hackathon 2025; Excellence Award."
+  year: 2025
+  status: finished
+  tags: "Agentic AI · Materials science"
+  link: "/projects/chemdx-agentic-ai/"
+
 - title: "Opentrons lab automation workshops"
   description: "Workshops introducing engineering students to molecular biology and lab automation on the Opentrons OT-2, taught for Yonsei's Integrated Science and Engineering courses."
   year: 2025

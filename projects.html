@@ -12,7 +12,7 @@ permalink: /projects/
   <ol class="list pubs">
     {% for p in site.data.projects %}
     <li>
-      <a href="{{ p.link | default: '#' }}">
+      <a href="{% if p.link != '' %}{{ p.link | relative_url }}{% else %}#{% endif %}">
         <span class="num">{{ p.year }}</span>
         <span class="name">{{ p.title }}<small>{{ p.description }}</small></span>
         <span class="meta">{{ p.status }}</span>

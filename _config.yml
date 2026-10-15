@@ -29,3 +29,9 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+
+# Project pages live in _projects/ (one Markdown file each)
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
