@@ -2,7 +2,9 @@
 title: "Ana"
 tagline: "Researcher and designer in synthetic biology, biosensors and lab automation"
 description: "Personal website of Ana, a researcher and designer working in synthetic biology, immunoengineering and lab automation — research, writing and creative work."
-email: "anastasia.rkh@yonsei.ac.kr"
+# Email is stored in two parts and joined in the browser, so crawlers can't harvest it.
+email_user: "anastasia.rkh"
+email_domain: "yonsei.ac.kr"
 location: "Seoul, KR"
 
 # Social links — leave blank ("") to hide

@@ -33,7 +33,7 @@
     <footer class="bottom">
       <span>© {{ 'now' | date: '%Y' }} {{ site.title }}</span>
       <span class="links">
-        {% if site.email %}<a href="mailto:{{ site.email }}">Email</a>{% endif %}
+        {% if site.email_user %}<a href="#" class="em" data-u="{{ site.email_user }}" data-d="{{ site.email_domain }}">Email</a>{% endif %}
         {% if site.links.github != "" %}<a href="https://github.com/{{ site.links.github }}" rel="me noopener">GitHub</a>{% endif %}
         {% if site.links.scholar != "" %}<a href="{{ site.links.scholar }}">Scholar</a>{% endif %}
         {% if site.links.orcid != "" %}<a href="https://orcid.org/{{ site.links.orcid }}" rel="me noopener">ORCID</a>{% endif %}
@@ -49,6 +49,13 @@
       function pad(n) { return String(Math.round(n)).padStart(3, '0'); }
       window.addEventListener('pointermove', function (e) { x.textContent = pad(e.clientX); y.textContent = pad(e.clientY); });
     })();
+  </script>
+  <script>
+    document.querySelectorAll('a.em').forEach(function (a) {
+      var e = a.dataset.u + '\u0040' + a.dataset.d;
+      a.href = 'mailto:' + e;
+      if (a.dataset.show) a.textContent = e;
+    });
   </script>
 </body>
 </html>
