@@ -1,7 +1,7 @@
 # One entry per project. Newest first.
 # status: ongoing / finished / idea
-- title: "Toehold–nanopore biosensing platform"
-  description: "A multiplexed RNA biosensor that couples toehold switch recognition with a nanopore readout, aimed at accessible detection of disease biomarkers. Continues my senior thesis on cell-free preeclampsia screening."
+- title: "RNA Toehold Sensors for Accessible Preeclampsia Diagnostics"
+  description: "Cell-free toehold switch sensors for the mRNA biomarkers sFlt-1 and PlGF, towards a low-cost screening test for preeclampsia. My senior thesis in the Designer Cells Lab."
   year: 2026
   status: ongoing
   tags: "Biosensors · Synthetic biology"
