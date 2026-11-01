@@ -6,21 +6,10 @@ permalink: /about/
 <section class="page-head">
   <h1 class="title">About</h1>
   <p class="lede">
-    I’m a multidisciplinary researcher and designer working at the intersection of synthetic biology,
-    bioengineering and human–computer interaction. I’m interested in how we can engineer biological
-    systems to sense, respond and reveal new information, while making scientific tools more intuitive
-    and accessible.
-  </p>
-  <p class="lede">
-    My current work spans molecular biosensing, computational protein design, immunoengineering and
-    laboratory automation. Across these fields, I move between the molecular and the human scale: from
-    engineering DNA- and protein-based systems to exploring how people interact with scientific
-    technologies.
-  </p>
-  <p class="lede">
-    My approach is human-centred and inspired by nature. I’m fascinated by the complexity and elegance
-    of living systems, and by the possibilities of learning from and engineering them. Nature is often
-    where my ideas begin; people are why I pursue them.
+    I’m fascinated by the complexity and elegance of living systems, and by how much we can learn from
+    the ways they organise, adapt and interact. My research interests lie at the intersection of
+    synthetic biology and immunoengineering, where I hope to translate our understanding of biological
+    systems into new approaches to engineering biological functions.
   </p>
   <p class="sub">Reach me at <a href="#" class="em" data-u="{{ site.email_user }}" data-d="{{ site.email_domain }}" data-show="1">{{ site.email_user }} [at] {{ site.email_domain }}</a> · {{ site.location }}</p>
   {% assign cvfile = site.static_files | where: "path", "/assets/files/cv.pdf" | first %}{% if cvfile %}<p><a class="button" href="{{ '/assets/files/cv.pdf' | relative_url }}">Download full CV (PDF)</a></p>{% endif %}
