@@ -53,26 +53,9 @@ DFT studies of biomarker adsorption on 2D materials, and agentic automation of D
 August 2025 – present
 Coordinating the node, running lab automation, and supporting students through the course.
 
-**Teaching Assistant, Integrated Science and Engineering** — Yonsei University
-November 2025
-Workshops on molecular biology and lab automation with the Opentrons OT-2.
-
-**Founder & President, Yonsei Technology, Arts and Design Society (YTAD)**
-August 2023 – May 2024
-
 ## Industry
 
 **Data Science Intern** — I-ESG, Seoul
 September – December 2023
-
-## Awards
-
-Best Oral Presentation — UIC Science Fair
-Excellence Award — KRICT ChemDX Hackathon
-Winner — XR/AI Policy Hackathon (Seoul National University & Meta)
-
-## Skills
-
-Toehold switch design · Cell-free expression · Molecular cloning · ProteinMPNN · AlphaFold · PyMOL · DFT · Opentrons OT-2 · Python · R · UX/UI · Hardware prototyping
 
 </div>
