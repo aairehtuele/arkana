@@ -38,7 +38,7 @@ permalink: /about/
 
 <div class="entry">
   <h3>Computational Energy Materials Lab, Prof. Woosung Jang</h3>
-  <p class="where">Yonsei University · July 2025 – August 2026</p>
+  <p class="where">Yonsei University · July 2025 –</p>
 </div>
 
 <h2>Teaching &amp; community</h2>
