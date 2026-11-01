@@ -5,7 +5,23 @@ permalink: /about/
 ---
 <section class="page-head">
   <h1 class="title">About</h1>
-  <p class="lede">A few sentences about who you are, what you work on and what you care about. <em>(Replace this.)</em></p>
+  <p class="lede">
+    I’m a multidisciplinary researcher and designer working at the intersection of synthetic biology,
+    bioengineering and human–computer interaction. I’m interested in how we can engineer biological
+    systems to sense, respond and reveal new information, while making scientific tools more intuitive
+    and accessible.
+  </p>
+  <p class="lede">
+    My current work spans molecular biosensing, computational protein design, immunoengineering and
+    laboratory automation. Across these fields, I move between the molecular and the human scale: from
+    engineering DNA- and protein-based systems to exploring how people interact with scientific
+    technologies.
+  </p>
+  <p class="lede">
+    My approach is human-centred and inspired by nature. I’m fascinated by the complexity and elegance
+    of living systems, and by the possibilities of learning from and engineering them. Nature is often
+    where my ideas begin; people are why I pursue them.
+  </p>
   <p class="sub">Reach me at <a href="#" class="em" data-u="{{ site.email_user }}" data-d="{{ site.email_domain }}" data-show="1">{{ site.email_user }} [at] {{ site.email_domain }}</a> · {{ site.location }}</p>
   {% assign cvfile = site.static_files | where: "path", "/assets/files/cv.pdf" | first %}{% if cvfile %}<p><a class="button" href="{{ '/assets/files/cv.pdf' | relative_url }}">Download full CV (PDF)</a></p>{% endif %}
 </section>
@@ -14,24 +30,49 @@ permalink: /about/
 
 ## Education
 
-**MSc, Your Programme** — University Name
-2025 – present
+**B.S. Information and Interaction Design & B.Eng. Bioconvergence (double major)** — Yonsei University, Underwood International College
+Expected February 2027
 
-**BSc, Your Degree** — University Name
-2021 – 2025
+## Research
 
-## Experience
+**Designer Cells Lab**, Prof. Patrick Han — Yonsei University
+November 2024 – present
+Synthetic biology and immunoengineering: RNA-based biosensing for accessible diagnostics, computational protein design, and an AI assistant for the wet lab.
 
-**Research Intern** — Lab Name, Institute
-2025 – present
-One line on what you do there.
+**Designing Intelligence Augmentation Group**, Prof. Jean Y. Song — Yonsei University
+January 2025 – August 2026
+Human–AI interaction in education: how students question and learn with large language models.
 
-## Skills
+**Computational Energy Materials Lab**, Prof. Woosung Jang — Yonsei University
+July 2025 – August 2026
+DFT studies of biomarker adsorption on 2D materials, and agentic automation of DFT workflows.
 
-Molecular cloning · Cell culture · Python · Illustration
+## Teaching & community
+
+**Teaching Assistant, How to Grow (Almost) Anything** — Designer Cells Node
+August 2025 – present
+Coordinating the node, running lab automation, and supporting students through the course.
+
+**Teaching Assistant, Integrated Science and Engineering** — Yonsei University
+November 2025
+Workshops on molecular biology and lab automation with the Opentrons OT-2.
+
+**Founder & President, Yonsei Technology, Arts and Design Society (YTAD)**
+August 2023 – May 2024
+
+## Industry
+
+**Data Science Intern** — I-ESG, Seoul
+September – December 2023
 
 ## Awards
 
-**Award name** — Awarding body, 2024
+Best Oral Presentation — UIC Science Fair
+Excellence Award — KRICT ChemDX Hackathon
+Winner — XR/AI Policy Hackathon (Seoul National University & Meta)
+
+## Skills
+
+Toehold switch design · Cell-free expression · Molecular cloning · ProteinMPNN · AlphaFold · PyMOL · DFT · Opentrons OT-2 · Python · R · UX/UI · Hardware prototyping
 
 </div>
