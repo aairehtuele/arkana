@@ -212,6 +212,7 @@ main { flex: 1; padding-top: 72px; padding-bottom: 96px; }
 .prose pre code { background: none; padding: 0; }
 .prose img { margin: 2em 0; }
 .cv p { margin-top: .9em; }
+.cv { max-width: none; }
 .cv .entry { margin-top: 1.6em; }
 .cv .entry + .entry { margin-top: 1.4em; }
 .cv .entry h3 { margin: 0; font-weight: 500; font-size: inherit; }

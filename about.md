@@ -29,19 +29,16 @@ permalink: /about/
 <div class="entry">
   <h3>Designer Cells Lab, Prof. Patrick Han</h3>
   <p class="where">Yonsei University · November 2024 – present</p>
-  <p class="what">Synthetic biology and immunoengineering: RNA-based biosensing for accessible diagnostics, computational protein design, and an AI assistant for the wet lab.</p>
 </div>
 
 <div class="entry">
   <h3>Designing Intelligence Augmentation Group, Prof. Jean Y. Song</h3>
   <p class="where">Yonsei University · January 2025 – August 2026</p>
-  <p class="what">Human–AI interaction in education: how students question and learn with large language models.</p>
 </div>
 
 <div class="entry">
   <h3>Computational Energy Materials Lab, Prof. Woosung Jang</h3>
   <p class="where">Yonsei University · July 2025 – August 2026</p>
-  <p class="what">DFT studies of biomarker adsorption on 2D materials, and agentic automation of DFT workflows.</p>
 </div>
 
 <h2>Teaching &amp; community</h2>
@@ -49,7 +46,6 @@ permalink: /about/
 <div class="entry">
   <h3>Teaching Assistant, How to Grow (Almost) Anything</h3>
   <p class="where">Designer Cells Node · August 2025 – present</p>
-  <p class="what">Coordinating the node, running lab automation, and supporting students through the course.</p>
 </div>
 
 <h2>Industry</h2>
