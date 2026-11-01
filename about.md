@@ -6,10 +6,10 @@ permalink: /about/
 <section class="page-head">
   <h1 class="title">About</h1>
   <p class="lede">
-    I’m fascinated by the complexity and elegance of living systems, and by how much we can learn from
-    the ways they organise, adapt and interact. My research interests lie at the intersection of
-    synthetic biology and immunoengineering, where I hope to translate our understanding of biological
-    systems into new approaches to engineering biological functions.
+    I’m fascinated by the complexity and elegance of living systems, and by the potential to understand,
+    learn from, and engineer them. My research interests lie at the intersection of synthetic biology and
+    immunoengineering, where I hope to translate our understanding of biological systems into new
+    approaches to engineering biological functions.
   </p>
   <p class="sub">Reach me at <a href="#" class="em" data-u="{{ site.email_user }}" data-d="{{ site.email_domain }}" data-show="1">{{ site.email_user }} [at] {{ site.email_domain }}</a> · {{ site.location }}</p>
   {% assign cvfile = site.static_files | where: "path", "/assets/files/cv.pdf" | first %}{% if cvfile %}<p><a class="button" href="{{ '/assets/files/cv.pdf' | relative_url }}">Download full CV (PDF)</a></p>{% endif %}
