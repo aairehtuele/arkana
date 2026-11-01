@@ -15,36 +15,48 @@ permalink: /about/
   {% assign cvfile = site.static_files | where: "path", "/assets/files/cv.pdf" | first %}{% if cvfile %}<p><a class="button" href="{{ '/assets/files/cv.pdf' | relative_url }}">Download full CV (PDF)</a></p>{% endif %}
 </section>
 
-<div class="prose cv" markdown="1">
+<div class="prose cv">
 
-## Education
+<h2>Education</h2>
 
-**B.S. Information and Interaction Design & B.Eng. Bioconvergence (double major)** — Yonsei University, Underwood International College
-Expected February 2027
+<div class="entry">
+  <h3>B.S. Information and Interaction Design &amp; B.Eng. Bioconvergence (double major)</h3>
+  <p class="where">Yonsei University, Underwood International College · Expected February 2027</p>
+</div>
 
-## Research
+<h2>Research</h2>
 
-**Designer Cells Lab**, Prof. Patrick Han — Yonsei University
-November 2024 – present
-Synthetic biology and immunoengineering: RNA-based biosensing for accessible diagnostics, computational protein design, and an AI assistant for the wet lab.
+<div class="entry">
+  <h3>Designer Cells Lab, Prof. Patrick Han</h3>
+  <p class="where">Yonsei University · November 2024 – present</p>
+  <p class="what">Synthetic biology and immunoengineering: RNA-based biosensing for accessible diagnostics, computational protein design, and an AI assistant for the wet lab.</p>
+</div>
 
-**Designing Intelligence Augmentation Group**, Prof. Jean Y. Song — Yonsei University
-January 2025 – August 2026
-Human–AI interaction in education: how students question and learn with large language models.
+<div class="entry">
+  <h3>Designing Intelligence Augmentation Group, Prof. Jean Y. Song</h3>
+  <p class="where">Yonsei University · January 2025 – August 2026</p>
+  <p class="what">Human–AI interaction in education: how students question and learn with large language models.</p>
+</div>
 
-**Computational Energy Materials Lab**, Prof. Woosung Jang — Yonsei University
-July 2025 – August 2026
-DFT studies of biomarker adsorption on 2D materials, and agentic automation of DFT workflows.
+<div class="entry">
+  <h3>Computational Energy Materials Lab, Prof. Woosung Jang</h3>
+  <p class="where">Yonsei University · July 2025 – August 2026</p>
+  <p class="what">DFT studies of biomarker adsorption on 2D materials, and agentic automation of DFT workflows.</p>
+</div>
 
-## Teaching & community
+<h2>Teaching &amp; community</h2>
 
-**Teaching Assistant, How to Grow (Almost) Anything** — Designer Cells Node
-August 2025 – present
-Coordinating the node, running lab automation, and supporting students through the course.
+<div class="entry">
+  <h3>Teaching Assistant, How to Grow (Almost) Anything</h3>
+  <p class="where">Designer Cells Node · August 2025 – present</p>
+  <p class="what">Coordinating the node, running lab automation, and supporting students through the course.</p>
+</div>
 
-## Industry
+<h2>Industry</h2>
 
-**Data Science Intern** — I-ESG, Seoul
-September – December 2023
+<div class="entry">
+  <h3>Data Science Intern</h3>
+  <p class="where">I-ESG, Seoul · September – December 2023</p>
+</div>
 
 </div>
